@@ -123,11 +123,11 @@ TIMER = pygame.USEREVENT + 1
 WRONG_PATTERN_TIMER = pygame.USEREVENT + 2
 WAIT_TIME = 15
 POINT_RADIUS = 4 # can be changed
-SELECTION_RADIUS = 30 # can be changed
+SELECTION_RADIUS = 64 # can be changed
 POINT_OFFSET = 150 # can be changed
 DRAW_OFFSET = (SCREEN_SIZE[0]-POINT_OFFSET*2)//2, (SCREEN_SIZE[1]-POINT_OFFSET*2)//2
 
-COMBINATION = [2, 5, 7, 8, 9, 1] # to be altered
+COMBINATION = [1, 2, 3, 4, 5, 6, 7, 8, 9] # to be altered
 error_sound = pygame.mixer.Sound("data/error.wav")
 enter_sound = pygame.mixer.Sound("data/enter.wav")
 font = pygame.font.SysFont("Arial", 30)
