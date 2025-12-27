@@ -120,7 +120,7 @@ SCREEN_SIZE = 600, 800
 screen = pygame.display.set_mode(SCREEN_SIZE)
 
 TIMER = pygame.USEREVENT + 1
-WRONG_PATTERN_TIMER = pygame.USEREVENT + 2
+WRONG_PATTERN_TIMER = pygame.USEREVENT + 3
 WAIT_TIME = 15
 POINT_RADIUS = 4 # can be changed
 SELECTION_RADIUS = 64 # can be changed
